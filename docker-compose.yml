@@ -12,7 +12,7 @@ services:
         TZ: $TZ
 
   bluecherry:
-    container_name: bluecherry
+    # container_name: bluecherry
     build:
         context: .
         network: bluecherry_net
